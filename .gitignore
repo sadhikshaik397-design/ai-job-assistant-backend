@@ -1,0 +1,41 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+application-local.properties
+application-secrets.properties
+
+# Dependencies and build output
+node_modules/
+target/
+build/
+dist/
+
+# Duplicate folder and unrelated Node.js files in the backend root
+/job-assistant/
+/package.json
+/package-lock.json
+
+# Maven wrapper JAR
+.mvn/wrapper/maven-wrapper.jar
+
+# Java / IDE files
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.apt_generated/
+.idea/
+*.iws
+*.iml
+*.ipr
+.nb-gradle/
+nbproject/private/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
